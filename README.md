@@ -18,7 +18,7 @@ Saját JavaScript kód helye és működése:
 - Eredmény meghatározása -- A legmagasabb pontszámot elért karakter lesz a nyertes.
 
 Az oldal megjeleníti a nyertes nevét és a hozzá tartozó leírást.
--Fájl: script.js
+-Fájl: jelentkezes.js
 - Űrlap és mezők kiválasztása -- A script kiválasztja a HTML-ből az űrlapot és az összes fontos mezőt (név, email, telefonszám, létszám, dátum, időpont).
 - Hibaüzenetek tárolása -- Minden mezőhöz külön span elem van rendelve, ahol a validációs hibaüzenetek jelennek meg.
 - Űrlap beküldésének figyelése -- A submit eseményre egy függvény fut, ami megakadályozza az oldal frissítését.
