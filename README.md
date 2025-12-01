@@ -1,2 +1,38 @@
 # webfejlesztes
 A webfejlesztés tárgy beadandója.
+Készítő neve: Kovács Nikoletta
+
+Működő weboldal URL: https://nikikovacs0828.github.io/webfejlesztes/
+
+Weboldal témája: A weboldal a Gilmore Girls sorozat világát mutatja be, a szereplők és helyszínek bemutatásával. A cél, hogy a látogatók könnyen eligazodjanak a sorozat világában és élvezzék a kisvárosi hangulatot.
+
+Saját JavaScript kód helye és működése: 
+- Fájl: script.js
+-Karakterpontok inicializálása -- Minden karakterhez pontszámot rendelünk (Paris, Rory, Lorelai, Sookie, Lane). Kezdetben minden pontszám 0.
+-Kérdések és válaszok definiálása -- A kérdések és válaszok egy tömbben vannak tárolva. Minden válasz egy karakterhez tartozik, amelyhez pontot ad a program.
+- DOM elemek kiválasztása -- A kérdés, a válaszok, a „Következő” gomb és az eredmény megjelenítő elem kiválasztása a HTML-ből.
+- Karakterleírások tárolása -- Minden karakterhez rövid személyiségleírást rendelünk, amelyet a kvíz végén jelenítünk meg.
+-Első kérdés megjelenítése -- A megjelenit() függvény segítségével az első kérdés és a hozzá tartozó válaszok láthatóvá válnak.
+- Válasz kiválasztása -- A felhasználó választ egy gombot, ami növeli a megfelelő karakter pontszámát. A választott gomb kiemelése, a többi gomb letiltása, és a „Következő” gomb megjelenítése.
+- Következő kérdés -- A gomb megnyomására betöltődik a következő kérdés, amíg el nem érjük a kvíz végét.
+- Eredmény meghatározása -- A legmagasabb pontszámot elért karakter lesz a nyertes.
+
+Az oldal megjeleníti a nyertes nevét és a hozzá tartozó leírást.
+-Fájl: script.js
+- Űrlap és mezők kiválasztása -- A script kiválasztja a HTML-ből az űrlapot és az összes fontos mezőt (név, email, telefonszám, létszám, dátum, időpont).
+- Hibaüzenetek tárolása -- Minden mezőhöz külön span elem van rendelve, ahol a validációs hibaüzenetek jelennek meg.
+- Űrlap beküldésének figyelése -- A submit eseményre egy függvény fut, ami megakadályozza az oldal frissítését.
+- Előző hibák törlése -- Minden beküldés előtt a korábbi hibaüzenetek és hibastílusok törlődnek, hogy tiszta állapotban induljon az ellenőrzés.
+- Alapvető mezőellenőrzések --A név és email mező nem lehet üres. A telefonszámnak legalább 10 karakter hosszúnak kell lennie. A létszámnak minimum 1 főnek kell lennie.
+- Dátum validáció -- Ellenőrzi, hogy a felhasználó választott-e dátumot. A múltbeli napokra nem enged foglalást.
+- Időpont ellenőrzése -- Ellenőrzi, hogy a felhasználó választott-e időpontot. A múltbeli dátum-idő kombinációkra nem enged foglalást.
+- Sikeres validáció kezelése -- Ha minden mező helyes, az űrlap eltűnik, és megjelenik a sikerüzenet.
+-Hibakezelés és logolás -- Hibás űrlap esetén a konzolban jelzi, hogy van hiba. Ha minden rendben van, a beküldés engedélyezett, és logolódik a siker.
+
+Használt egyedi fonttípus és helye: 
+- Font: "Playfair Display"
+- Helye: Betöltés Google Fonts-ról a <head> szakaszban:
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+Minden felhasznált külső forrás:
+- A projekt készítése során a ChatGPT segítséget nyújtott, főleg a JavaScript kód megértésében és írásában, valamint forráskeresési és problémamegoldási célból.
